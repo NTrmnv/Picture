@@ -55,7 +55,7 @@ const sliders = (slides, dir, prev, next) => {
             paused = setInterval(function () {
                 changeSlides(1);
                 items[slideIndex - 1].classList.remove('slideInRight');
-                items[slideIndex - 1].classList.add('slideInLeft');;         
+                items[slideIndex - 1].classList.add('slideInLeft');      
             }, 4000);
         }
     }
